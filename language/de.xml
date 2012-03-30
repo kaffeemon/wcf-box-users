@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="de">
+	<category name="wcf.box.type">
+		<item name="wcf.box.type.users"><![CDATA[Mitgliederliste]]></item>
+		<item name="wcf.box.type.users.option.usernames"><![CDATA[Benutzernamen]]></item>
+		<item name="wcf.box.type.users.option.usernames.description"><![CDATA[Geben Sie hier mit Komma voneinander getrennte Benutzernamen ein, um ausgewählte Mitglieder anzuzeigen. <strong>Wichtig:</strong> Es müssen entweder Benutzernamen angegeben oder Gruppen ausgewählt werden!]]></item>
+		<item name="wcf.box.type.users.option.groupIDs"><![CDATA[Benutzergruppen]]></item>
+		<item name="wcf.box.type.users.option.groupIDs.description"><![CDATA[Wählen Sie hier Benutzergruppen aus, aus denen Mitglieder angezeigt werden sollen. <strong>Wichtig:</strong> Es müssen entweder Benutzernamen angegeben oder Gruppen ausgewählt werden!]]></item>
+		<item name="wcf.box.type.users.option.hideOfflineUsers"><![CDATA[Nur Mitglieder anzeigen, die online sind]]></item>
+		<item name="wcf.box.type.users.option.showOnlineStatus"><![CDATA[Status anzeigen]]></item>
+		<item name="wcf.box.type.users.option.groupByUserGroup"><![CDATA[Nach Benutzergruppen gruppieren]]></item>
+	</category>
+</language>

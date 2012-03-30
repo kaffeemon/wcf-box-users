@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.github.kaffeemon.wcf.boxes" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[User Boxes]]></packagename>
+		<packagedescription><![CDATA[]]></packagedescription>
+		<isunique>1</isunique>
+		<version>1.0.0 Alpha 1</version>
+		<date>2012-03-28</date>
+		<plugin>com.github.kaffeemon.wcf.boxes</plugin>
+	</packageinformation>
+	
+	<authorinformation>
+		<author><![CDATA[kaffeemon]]></author>
+		<authorurl><![CDATA[http://kaffeemon.github.com]]></authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="2.0.0 Alpha 1">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="1.0.0 Alpha 1">com.woltlab.wcf.user</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<instruction type="language">language/*.xml</instruction>
+		<instruction type="file">file.tar</instruction>
+		<instruction type="template">template.tar</instruction>
+		<instruction type="objectType">objectType.xml</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.0.0 Alpha *">
+		<instruction type="language">language/*.xml</instruction>
+		<instruction type="file">file.tar</instruction>
+		<instruction type="template">template.tar</instruction>
+		<instruction type="objectType">objectType.xml</instruction>
+	</instructions>
+</package>
+
