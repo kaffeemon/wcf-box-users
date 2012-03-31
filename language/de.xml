@@ -9,5 +9,6 @@
 		<item name="wcf.box.type.users.option.hideOfflineUsers"><![CDATA[Nur Mitglieder anzeigen, die online sind]]></item>
 		<item name="wcf.box.type.users.option.showOnlineStatus"><![CDATA[Status anzeigen]]></item>
 		<item name="wcf.box.type.users.option.groupByUserGroup"><![CDATA[Nach Benutzergruppen gruppieren]]></item>
+		<item name="wcf.box.type.users.option.error.noCondition"><![CDATA[Es müssen entweder Benutzernamen angegeben oder Gruppen ausgewählt werden.]]></item>
 	</category>
 </language>
